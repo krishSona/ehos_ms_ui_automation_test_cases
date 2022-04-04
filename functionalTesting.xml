@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Health Facility Configuration Suit">
+	<listeners>
+		<listener class-name="Listerners.TestNGListener"></listener>
+	</listeners>
+	<test thread-count="1" name="Functionlity Testing">
+		<classes>
+			<class name="ehosuitestcases.HealthFacilityConfigTestCases"></class>
+			<class name="ehosuitestcases.ManageUserTestCases"></class>
+			<class name="ehosuitestcases.BuildingConfigTestCases"></class>
+		</classes>
+	</test>
+</suite>

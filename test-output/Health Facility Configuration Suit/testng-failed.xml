@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Health Facility Configuration Suit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functionlity Testing(failed)">
+    <classes>
+      <class name="ehosuitestcases.HealthFacilityConfigTestCases">
+        <methods>
+          <include name="flushReport"/>
+          <include name="healthFacilityConfig"/>
+        </methods>
+      </class> <!-- ehosuitestcases.HealthFacilityConfigTestCases -->
+      <class name="ehosuitestcases.ManageUserTestCases">
+        <methods>
+          <include name="flushReport"/>
+          <include name="resetManageUserForm"/>
+          <include name="AddNewUserAsNurse"/>
+        </methods>
+      </class> <!-- ehosuitestcases.ManageUserTestCases -->
+      <class name="ehosuitestcases.BuildingConfigTestCases">
+        <methods>
+          <include name="flushReport"/>
+          <include name="deleteBlock"/>
+          <include name="deleteFloor"/>
+          <include name="addBuildingDetail"/>
+        </methods>
+      </class> <!-- ehosuitestcases.BuildingConfigTestCases -->
+    </classes>
+  </test> <!-- Functionlity Testing(failed) -->
+</suite> <!-- Failed suite [Health Facility Configuration Suit] -->
