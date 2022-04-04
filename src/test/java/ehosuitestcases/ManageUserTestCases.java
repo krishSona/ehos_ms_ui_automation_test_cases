@@ -59,7 +59,7 @@ public class ManageUserTestCases extends BaseTestClass{
 		manageUsers.addNewUser();
 	}
 		
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void resetManageUserForm() throws InterruptedException, IOException {
 		logger = report.createTest("Manage Users 'Add User Form Reset'");
 		invokeBrowser();
@@ -93,7 +93,7 @@ public class ManageUserTestCases extends BaseTestClass{
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, enabled=true)
 	public void updateUser() throws InterruptedException, IOException {
 		logger = report.createTest("Update User Details In Manage Users");
 		invokeBrowser();
@@ -118,7 +118,7 @@ public class ManageUserTestCases extends BaseTestClass{
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=3, enabled=false)
+	@Test(priority=3, enabled=true)
 	public void userStatusCheck() throws InterruptedException, IOException {
 		logger = report.createTest("Update User Status In Manage User'");
 		invokeBrowser();
@@ -144,7 +144,7 @@ public class ManageUserTestCases extends BaseTestClass{
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=4, enabled=false)
+	@Test(priority=4, enabled=true)
 	public void searchUser() throws InterruptedException, IOException {
 		logger = report.createTest("Search User In Manage User'");
 		invokeBrowser();

@@ -49,7 +49,7 @@ public class BuildingConfigTestCases extends BaseTestClass {
 		buildingConfiguration.saveBuilding();
 	}
 	
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void deleteBlock() throws InterruptedException, IOException {
 		logger = report.createTest("Add Multiple Block & Remove Them");
 		invokeBrowser();
@@ -77,7 +77,7 @@ public class BuildingConfigTestCases extends BaseTestClass {
 		Thread.sleep(2000);
 	}
 	
-	@Test(priority=2, enabled=false)
+	@Test(priority=2, enabled=true)
 	public void deleteFloor() throws InterruptedException, IOException {
 		logger = report.createTest("Building Configuration in HFC");
 		invokeBrowser();

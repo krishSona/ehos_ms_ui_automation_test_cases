@@ -58,7 +58,7 @@ public class HealthFacilityConfigTestCases extends BaseTestClass{
 		healthFacilityConfig.addDepartment();
 	}
 	
-	@Test(priority=1, enabled=false )
+	@Test(priority=1, enabled=true )
 	public void addUnit() throws InterruptedException, IOException {
 		logger = report.createTest("Verify Unit Addition Functionality.");
 		landingPage=OpenApplication();
@@ -76,7 +76,7 @@ public class HealthFacilityConfigTestCases extends BaseTestClass{
 		Thread.sleep(3000);
 	}
 	
-	@Test(priority=2, enabled=false )
+	@Test(priority=2, enabled=true )
 	public void addRegistrationCharge() throws InterruptedException, IOException {
 		logger = report.createTest("Verify Registration Charge Addition Functionality.");
 		landingPage=OpenApplication();
